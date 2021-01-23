@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-image: url("https://static.greatbigcanvas.com/images/print_rolled_posterpaper/art-licensing/dinosaur-friends,2154439.jpg");
+}
+
+input {
+  padding: 8px;
+  border-radius: 2px;
+  border-radius: 14%;
+  margin:5px;
+}
+
+img {
+  height: 200px;
+}
+button {
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: #92A63E;
+  padding: 8px;
+  border-radius: 14%;
+}
+
+div {
+  flex-basis: 25%;
+}
+
+p {
+  background-color: #fc030b;
+  color: wheat;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* Sourced blinking effect from: */
+/* https://www.revisitclass.com/css/how-to-make-blinking-text-using-html-and-css/ */
+  /* Set the size, colour, font properties for the blinking text */
+  .blinking {
+    animation: blinkingText 1s infinite;
+    font-family: fantasy; 
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    background-color: #fc030b;
+}
+
+/* Specifies the animation and transparency for the blinking text */
+@keyframes blinkingText {
+
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
