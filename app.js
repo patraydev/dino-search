@@ -8,7 +8,7 @@
 const getMovies = async (titleQuery) => {
   try {
     // let response = await axios.get(BASE_URL)
-    let response = await axios.get(`http://www.omdbapi.com/?s=${titleQuery}&apikey=d499ed39`)
+    let response = await axios.get(`https://www.omdbapi.com/?s=${titleQuery}&apikey=d499ed39`)
     // console.log(response.data);
     displayResults(response.data)
   } catch (error) {
